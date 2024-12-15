@@ -14,34 +14,26 @@ Reprojeção de Dados: Reprojeta camadas para o sistema de referência de coorde
 
 Criação de Buffers: Calcula zonas de proteção em torno de elementos como:
 
-Corpos d'água.
-
-Rodovias e ferrovias.
-
+Corpos d'água;
+Rodovias e ferrovias;
 Áreas urbanas e de preservação ambiental.
 
 Análise Lógica Booleana: Combina os buffers e outros critérios ambientais para identificar áreas como:
 
-Inviáveis.
-
-Inadequadas.
-
-Aceitáveis.
-
-Adequadas.
-
-Ideais.
+(1) Inviáveis
+(2) Inadequadas
+(3) Aceitáveis
+(4) Adequadas
+(5) Ideais
 
 Requisitos do Sistema
 
 Software: QGIS 3.22 ou superior.
-
 Bibliotecas Necessárias: O script utiliza a API PyQGIS, que é integrada ao QGIS.
 
 Dados de Entrada:
 
 Camadas vetoriais de feições geográficas, como corpos hídricos, malha viária e limites urbanos.
-
 Informações sobre legislação ambiental para configurar os parâmetros dos buffers.
 
 Como Utilizar o Script
@@ -51,19 +43,14 @@ Preparar os Dados: Certifique-se de que as camadas de entrada estão carregadas 
 Adicionar o Script ao QGIS:
 
 Abra o QGIS.
-
 Acesse o menu Processamento > Caixa de Ferramentas.
-
 Clique com o botão direito em Scripts e selecione Novo Script. Cole o código do script fornecido e salve-o.
-
 Configurar Parâmetros: Edite os parâmetros do script, como distâncias de buffers, se necessário. Estes parâmetros podem ser ajustados diretamente no código ou na interface gráfica, caso o script suporte.
 
 Executar o Script:
 
 Selecione o script na Caixa de Ferramentas.
-
 Insira as camadas necessárias e execute o processamento.
-
 Visualizar os Resultados: As saídas incluem camadas que destacam áreas classificadas de acordo com os critérios definidos. Analise os mapas resultantes para identificar os locais mais apropriados.
 
 Estrutura do Código
@@ -71,11 +58,8 @@ Estrutura do Código
 O script está organizado em:
 
 Reprojeção: Adapta as camadas ao sistema de referência.
-
 Criação de Buffers: Gera zonas de exclusão e proteção.
-
 Análise Lógica: Combina as feições em um único resultado.
-
 Exportação: Salva as camadas processadas no formato desejado.
 
 Personalização
@@ -83,7 +67,6 @@ Personalização
 Os usuários podem adaptar o script para diferentes contextos, ajustando:
 
 Parâmetros de Buffer: Distâncias de proteção conforme normas locais.
-
 Critérios de Exclusão: Inclusão de novas feições ou áreas de interesse.
 
 Licença
@@ -92,4 +75,4 @@ Este script é disponibilizado sob a licença MIT. Você é livre para usar, mod
 
 Contato
 
-Para mais informações ou suporte, entre em contato com [Seu Nome] em [Seu E-mail].
+Para mais informações ou suporte, entre em contato com Gabriel Soares em eng.soaressilva@gmail.com
