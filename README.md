@@ -9,17 +9,14 @@ Objetivo
 O objetivo principal do script é auxiliar tomadores de decisão e profissionais de gestão ambiental e urbana na identificação de locais apropriados para aterros sanitários, utilizando um processo baseado em geoprocessamento. Ele considera critérios normativos e ambientais para gerar resultados que apoiem a implementação de soluções sustentáveis.
 
 Funcionalidades
-
 Reprojeção de Dados: Reprojeta camadas para o sistema de referência de coordenadas EPSG:31983 (SIRGAS 2000 / UTM Zone 23S).
 
 Criação de Buffers: Calcula zonas de proteção em torno de elementos como:
-
 Corpos d'água;
 Rodovias e ferrovias;
 Áreas urbanas e de preservação ambiental.
 
 Análise Lógica Booleana: Combina os buffers e outros critérios ambientais para identificar áreas como:
-
 (1) Inviáveis
 (2) Inadequadas
 (3) Aceitáveis
