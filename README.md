@@ -12,11 +12,13 @@ Funcionalidades
 Reprojeção de Dados: Reprojeta camadas para o sistema de referência de coordenadas EPSG:31983 (SIRGAS 2000 / UTM Zone 23S).
 
 Criação de Buffers: Calcula zonas de proteção em torno de elementos como:
+
 Corpos d'água;
 Rodovias e ferrovias;
 Áreas urbanas e de preservação ambiental.
 
 Análise Lógica Booleana: Combina os buffers e outros critérios ambientais para identificar áreas como:
+
 (1) Inviáveis
 (2) Inadequadas
 (3) Aceitáveis
