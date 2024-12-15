@@ -1,4 +1,4 @@
-README: Script de Análise de Áreas Potenciais para Aterros Sanitários
+Script de Análise de Áreas Potenciais para Aterros Sanitários
 
 Descrição Geral
 
