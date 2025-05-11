@@ -1,4 +1,4 @@
-Script de Análise de Áreas Potenciais para Aterros Sanitários
+![Locais aptos _ V2](https://github.com/user-attachments/assets/2dd564fb-567f-43e6-994f-cd67275927bc)Script de Análise de Áreas Potenciais para Aterros Sanitários
 
 Descrição Geral
 
@@ -24,6 +24,9 @@ Análise Lógica Booleana: Combina os buffers e outros critérios ambientais par
 (3) Aceitáveis
 (4) Adequadas
 (5) Ideais
+
+![Locais aptos _ V2](https://github.com/user-attachments/assets/0553c987-fbd1-4581-bc4f-b5e577ca837b)
+
 
 Requisitos do Sistema
 
